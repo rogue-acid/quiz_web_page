@@ -1,0 +1,24 @@
+
+body {
+	background-color: lightblue;
+}
+
+p {
+	font-size: 500%;
+	background-color: white;
+	border-style: solid;
+	width: 500px;
+	text-align: center;
+}
+
+#next_button {
+	position: relative;
+	float: right;
+	width: 200px;
+	height: 75px;
+	font-size: 200%;
+}
+
+.question {
+	align: center;
+}

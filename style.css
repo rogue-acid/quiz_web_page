@@ -12,13 +12,15 @@ p {
 }
 
 #next_button {
-	position: relative;
-	float: right;
-	width: 200px;
-	height: 75px;
-	font-size: 200%;
+	margin-left: 1200px;
 }
 
 .question {
-	align: center;
+	margin: 0 auto;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+#2nd_row {
+	padding-left 600px;
 }

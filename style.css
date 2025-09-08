@@ -21,6 +21,14 @@ p {
 	padding-left: 50px;
 }
 
+#start {
+	margin-left: 700px;
+}
+
 #2nd_row {
-	padding-left 600px;
+	background-color: red;
+	flex: 1; 
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin: 5px;
 }

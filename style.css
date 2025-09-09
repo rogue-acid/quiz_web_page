@@ -7,28 +7,29 @@ p {
 	font-size: 500%;
 	background-color: white;
 	border-style: solid;
-	width: 500px;
+	width: 100%;
+	height: 100%;
 	text-align: center;
 }
 
 #next_button {
-	margin-left: 1200px;
+	margin-left: 3em;
+	width: 75%;
 }
 
 .question {
-	margin: 0 auto;
-	padding-right: 50px;
-	padding-left: 50px;
+	margin: auto;
+	margin-bottom: 1em;
 }
 
 #start {
-	margin-left: 700px;
+	margin: auto;
+	margin-top: 2em;
 }
 
-#2nd_row {
-	background-color: red;
-	flex: 1; 
-	padding: 10px;
-	border: 1px solid #ccc;
-	margin: 5px;
+.container {
+	display: grid;
+	justify-items: center;
+    grid-template-columns: 1fr 1fr; /* Creates two equal-width columns */
+    grid-template-rows: auto auto; /* First row auto-height, second row 100px */  /* Adds space between grid items */
 }

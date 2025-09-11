@@ -1,6 +1,7 @@
 
 body {
 	background-color: lightblue;
+	zoom: 67%;
 }
 
 p {
@@ -32,4 +33,8 @@ p {
 	justify-items: center;
     grid-template-columns: 1fr 1fr; /* Creates two equal-width columns */
     grid-template-rows: auto auto; /* First row auto-height, second row 100px */  /* Adds space between grid items */
+}
+
+#score {
+	margin: right;	
 }

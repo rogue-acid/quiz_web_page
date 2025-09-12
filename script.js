@@ -23,6 +23,7 @@ $(document).ready(function() {
 	});
 	
 	$(".wrong_answer").click(function() {
+		clicked = true;
 		console.log("wrong");
 		$(this).css("background-color", "tomato");
 	});
